@@ -1,0 +1,2 @@
+Cmd yönteici olarak çalıştırılır sonrasında Ubuntu indirilmesi için aşağıdaki komut çalıştırılır:
+wsl --install
