@@ -25,8 +25,8 @@ pwd -> Açılımı print working directory olan bu komut adından da anlaşılab
 passwd -> Adından da anlaşılabileceği gibi şifre değişikliği yapmaya yarayan komuttur. Şifrenin bazı güvenlik koşullarına uymaması durumunda şifre değiştirilemez.
 su - veya sudo su -> root kullanıcı yetkilerine erişim sağlar. Bazı işlemler bu yetki olmadan yapılamaz.
 touch -> Bir regular(normal) dosya oluşturur. Kullanımın genel biçimi: touch <dosya ismi>
-cp -> Açılımı copy olan bu komut ilk yazılan dosyayı ikinciye kopyalayan bir komuttur. Genel biçimi aşağıdaki gibidir: cp <src file> <dst file>
-Burada src file yani kaynak anlamında, dst file ise destination yani hedef anlamına gelir.
+cp -> Açılımı copy olan bu komut ilk yazılan dosyayı ikinciye kopyalayan bir komuttur. Genel biçimi aşağıdaki gibidir: cp -R <src file> <dst file> 
+Burada src file yani kaynak anlamında, dst file ise destination yani hedef anlamına gelir. Diğer taraftan -R ifadesi bir directory'nin kopyalandığını belirtir.
 mkdir -> Açılımı make directory olan bu komut adından da anlaşılabileceği gibi directory oluşturmaya yarayan bir komuttur. Kullanımını genel biçimi: mkdir <directory ismi>
 vi -> Bir regular dosya yaratmaya yarar ancak başka bir ekrana yönlendirir. Bu ekrandan çıkırılırken ":qw!" komutu yazılıp enter basılması gerekmektedir. Bu komutun genel biçimi: vi <dosya ismi> şeklindedir.
 
