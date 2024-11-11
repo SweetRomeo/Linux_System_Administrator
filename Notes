@@ -29,5 +29,7 @@ cp -> Açılımı copy olan bu komut ilk yazılan dosyayı ikinciye kopyalayan b
 Burada src file yani kaynak anlamında, dst file ise destination yani hedef anlamına gelir. Diğer taraftan -R ifadesi bir directory'nin kopyalandığını belirtir.
 mkdir -> Açılımı make directory olan bu komut adından da anlaşılabileceği gibi directory oluşturmaya yarayan bir komuttur. Kullanımını genel biçimi: mkdir <directory ismi>
 vi -> Bir regular dosya yaratmaya yarar ancak başka bir ekrana yönlendirir. Bu ekrandan çıkırılırken ":qw!" komutu yazılıp enter basılması gerekmektedir. Bu komutun genel biçimi: vi <dosya ismi> şeklindedir.
+find ->
+locate ->
 
 
