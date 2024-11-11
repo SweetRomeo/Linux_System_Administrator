@@ -18,7 +18,10 @@ b                    Block device
 
 Bazı önemli Linux Komutları
 cd -> Açılımı Change Directory yani farklı bir dosyaya gitme işlemini yapar. Eğer gidilmeye çalışılan dosya bir directory değilse bu durumda hata verir.
-ls -> Açılımı list olan bu komutu zaten daha önce öğrenmiştik. Bulunduğunuz dosya dizimindeki tüm dosyaları listeler. Sonuna -l veya -a gibi ifadeler de eklenebilir.
+ls -> Açılımı list olan bu komutu zaten daha önce öğrenmiştik. Bulunduğunuz dosya dizimindeki tüm dosyaları listeler. Sonuna -l, -a, -ltr gibi ifadeler de eklenebilir.
 pwd -> Açılımı print working directory olan bu komut adından da anlaşılabileceği gibi kullanının çalışmakta olduğu dosya dizimini basar.
 passwd -> Adından da anlaşılabileceği gibi şifre değişikliği yapmaya yarayan komuttur. Şifrenin bazı güvenlik koşullarına uymaması durumunda şifre değiştirilemez.
 su - veya sudo su -> root kullanıcı yetkilerine erişim sağlar. Bazı işlemler bu yetki olmadan yapılamaz.
+touch -> Bir regular(normal) dosya oluşturur. Kullanımın genel biçimi: touch <dosya ismi>
+cp -> Açılımı copy olan bu komut ilk yazılan dosyayı ikinciye kopyalayan bir komuttur. Genel biçimi aşağıdaki gibidir: cp <src file> <dst file>
+Burada src file yani kaynak anlamında, dst file ise destination yani hedef anlamına gelir.
