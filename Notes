@@ -17,6 +17,8 @@ p                    Named pipe
 b                    Block device
 
 Bazı önemli Linux Komutları
+ifconfig -> Cihaz ipsini öğrenmeye yarayan komuttur. Windowsdaki karşılığı ipconfig komutudur. Tek başına kullanılır.
+whoami veya who am i -> Kullanıcı adını görüntülemek için kullanılan komuttur.  
 cd -> Açılımı Change Directory yani farklı bir dosyaya gitme işlemini yapar. Eğer gidilmeye çalışılan dosya bir directory değilse bu durumda hata verir.
 ls -> Açılımı list olan bu komutu zaten daha önce öğrenmiştik. Bulunduğunuz dosya dizimindeki tüm dosyaları listeler. Sonuna -l, -a, -ltr gibi ifadeler de eklenebilir.
 pwd -> Açılımı print working directory olan bu komut adından da anlaşılabileceği gibi kullanının çalışmakta olduğu dosya dizimini basar.
