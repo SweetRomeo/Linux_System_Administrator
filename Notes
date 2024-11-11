@@ -5,3 +5,13 @@ Linuxta dosya tipleri
 Dosyaları tipleriyle birlikte listelemek için aşağıdaki komut kullanılabilir:
 ls -l
 Bu komuta benzer olan ls -a, ls --all veya sadece ls gibi komutlar da mevcuttur.
+ls -l komutundan sonra elde edilen dosya sembolüne bağlı olarak dosyaların tipleri hakkında bilgi sahibi olunabilir.
+Örneğin aşağıdaki tabloda bazı dosyaların sembolleri verilmiştir:
+File Symbol          Dosya Tipi
+-                    Regular
+d                    Directory
+l                    Link
+c                    Special file or Device file
+s                    Socket
+p                    Named pipe
+b                    Block device
