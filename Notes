@@ -29,7 +29,9 @@ cp -> Açılımı copy olan bu komut ilk yazılan dosyayı ikinciye kopyalayan b
 Burada src file yani kaynak anlamında, dst file ise destination yani hedef anlamına gelir. Diğer taraftan -R ifadesi bir directory'nin kopyalandığını belirtir.
 mkdir -> Açılımı make directory olan bu komut adından da anlaşılabileceği gibi directory oluşturmaya yarayan bir komuttur. Kullanımını genel biçimi: mkdir <directory ismi>
 vi -> Bir regular dosya yaratmaya yarar ancak başka bir ekrana yönlendirir. Bu ekrandan çıkırılırken ":qw!" komutu yazılıp enter basılması gerekmektedir. Bu komutun genel biçimi: vi <dosya ismi> şeklindedir.
-find ->
-locate ->
+find -> Dosyayı bulmaya yarayan komuttur. Değişik kullanımları mevcuttur ancak iki tane önemli sırasıyla aşağıdaki gibidir: find . -name <aranan dosya ismi> veya belli bir konumda 
+aramak için: find <dosyanın aranacağı alan>(örn: /home/berke) -name <aranan dosya ismi>
+locate -> find ile aynı işi yapmasının yanı sıra root yetkisi var iken bu komut beklendiği gibi çalışmaz
+exit -> root çıkış yapılmasını sağlar.
 
 
