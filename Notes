@@ -1,2 +1,7 @@
 Cmd yönteici olarak çalıştırılır sonrasında Ubuntu indirilmesi için aşağıdaki komut çalıştırılır:
 wsl --install
+
+Linuxta dosya tipleri
+Dosyaları tipleriyle birlikte listelemek için aşağıdaki komut kullanılabilir:
+ls -l
+Bu komuta benzer olan ls -a, ls --all veya sadece ls gibi komutlar da mevcuttur.
