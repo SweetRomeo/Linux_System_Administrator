@@ -35,6 +35,8 @@ locate -> find ile aynı işi yapmasının yanı sıra root yetkisi var iken bu 
 exit -> root çıkış yapılmasını sağlar.
 rm -> Açılımı remove olan bu komut dosya kaldırmada kullanılan bir komuttur. Genel kullanımı: rm <dosya ismi> şeklindedir.
 cat -> Dosyasının içinde bulunan yazıyı terminale basan komuta verilen isimdir. Komutun kullanımının genel biçimi: cat <dosya ismi>
+chmod -> Dosya izinlerini değiştirmekted kullanılan son derece önemli bir komuttur.
+man -> Bu komut Linux komutları hakkında bilgi alınmasını sağlar. Genel kullanımı: man <komut ismi> şeklindedir.
 
 Wildcards(*, ?, [])
 Bu ifadeler bazı işlemlerin daha kolay yapılmasına katkı sağlamaktadır. Örneğin aynı yazıyla başlayan birden fazla dosyanın tek bir komut ile 
