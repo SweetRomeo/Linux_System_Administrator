@@ -35,5 +35,11 @@ locate -> find ile aynı işi yapmasının yanı sıra root yetkisi var iken bu 
 exit -> root çıkış yapılmasını sağlar.
 rm -> Açılımı remove olan bu komut dosya kaldırmada kullanılan bir komuttur. Genel kullanımı: rm <dosya ismi> şeklindedir.
 
-Wildcards(*, )
+Wildcards(*, ?, [])
+Bu ifadeler bazı işlemlerin daha kolay yapılmasına katkı sağlamaktadır. Örneğin aynı yazıyla başlayan birden fazla dosyanın tek bir komut ile 
+silinmesi ancak bu ifadeler ile mümkündür. Örneğin aşağıdaki iki komutu çalıştıralım:
+touch abcd{1..9}-xyz
+Bu komut ile abcd1-xyz dosyasından başlayarak sırasıyla abcd2-xyz, abcd3-xyz, ... , abcd9-xyz dosyaları oluşturulacaktır.
+rm abcd* 
+Bu komut kullanılarak da abcd ile başlayan tüm dosyaları kaldır anlamına gelmektedir.
 
