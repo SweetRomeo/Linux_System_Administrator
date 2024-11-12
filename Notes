@@ -42,4 +42,12 @@ touch abcd{1..9}-xyz
 Bu komut ile abcd1-xyz dosyasından başlayarak sırasıyla abcd2-xyz, abcd3-xyz, ... , abcd9-xyz dosyaları oluşturulacaktır.
 rm abcd* 
 Bu komut kullanılarak da abcd ile başlayan tüm dosyaları kaldır anlamına gelmektedir.
+-> Soru işareti ise aşağıdaki gibi kullanımda
+ls -l ?bcd*
+Başında herhangi bir karakter olsun sadece ondan sonraki 3 karakter bcd şekilnde olsun diyebiliriz.
+-> [] yani köşeli parantez ise aşağıdaki örnekte:
+ls -l *[cd]* 
+c veya d karakterinin herhangi birini isminde olan dosyaları ekrana yazdıran komuttur.
+
+
 
