@@ -33,5 +33,6 @@ find -> Dosyayı bulmaya yarayan komuttur. Değişik kullanımları mevcuttur an
 aramak için: find <dosyanın aranacağı alan>(örn: /home/berke) -name <aranan dosya ismi>
 locate -> find ile aynı işi yapmasının yanı sıra root yetkisi var iken bu komut beklendiği gibi çalışmaz
 exit -> root çıkış yapılmasını sağlar.
+rm -> Açılımı remove olan bu komut dosya kaldırmada kullanılan bir komuttur. Genel kullanımı: rm <dosya ismi> şeklindedir.
 
 
