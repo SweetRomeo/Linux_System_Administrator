@@ -35,4 +35,5 @@ locate -> find ile aynı işi yapmasının yanı sıra root yetkisi var iken bu 
 exit -> root çıkış yapılmasını sağlar.
 rm -> Açılımı remove olan bu komut dosya kaldırmada kullanılan bir komuttur. Genel kullanımı: rm <dosya ismi> şeklindedir.
 
+Wildcards(*, )
 
