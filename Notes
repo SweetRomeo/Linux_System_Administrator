@@ -34,6 +34,7 @@ aramak için: find <dosyanın aranacağı alan>(örn: /home/berke) -name <aranan
 locate -> find ile aynı işi yapmasının yanı sıra root yetkisi var iken bu komut beklendiği gibi çalışmaz
 exit -> root çıkış yapılmasını sağlar.
 rm -> Açılımı remove olan bu komut dosya kaldırmada kullanılan bir komuttur. Genel kullanımı: rm <dosya ismi> şeklindedir.
+cat -> Dosyasının içinde bulunan yazıyı terminale basan komuta verilen isimdir. Komutun kullanımının genel biçimi: cat <dosya ismi>
 
 Wildcards(*, ?, [])
 Bu ifadeler bazı işlemlerin daha kolay yapılmasına katkı sağlamaktadır. Örneğin aynı yazıyla başlayan birden fazla dosyanın tek bir komut ile 
