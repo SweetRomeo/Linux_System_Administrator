@@ -48,6 +48,7 @@ Başında herhangi bir karakter olsun sadece ondan sonraki 3 karakter bcd şekil
 -> [] yani köşeli parantez ise aşağıdaki örnekte:
 ls -l *[cd]* 
 c veya d karakterinin herhangi birini isminde olan dosyaları ekrana yazdıran komuttur.
+Soft and Hard Links
 
 
 
