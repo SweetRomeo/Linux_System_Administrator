@@ -33,7 +33,9 @@ find -> Dosyayı bulmaya yarayan komuttur. Değişik kullanımları mevcuttur an
 aramak için: find <dosyanın aranacağı alan>(örn: /home/berke) -name <aranan dosya ismi>
 locate -> find ile aynı işi yapmasının yanı sıra root yetkisi var iken bu komut beklendiği gibi çalışmaz
 exit -> root çıkış yapılmasını sağlar.
-rm -> Açılımı remove olan bu komut dosya kaldırmada kullanılan bir komuttur. Genel kullanımı: rm <dosya ismi> şeklindedir.
+rm -> Açılımı remove olan bu komut dosya kaldırmada kullanılan bir komuttur. Genel kullanımı: rm <dosya ismi> şeklindedir. Bu komutun bir farklısı rm -Rf komutudur. Bu komutta bulunan "Rf" ifadesi remove forcelly anlamına gelmektedir. 
+kaldırma işlemi bazı durumlarda gerçekleşemeyebilir. Bu gibi durumlarda -Rf ifadesi kullanılmalıdır. 
+Anahtar Notlar: rm komutunu -Rf ile kullanmak her zaman iyi bir yöntem olmayabilir. Bazen dosyaların silinmesinin tehlikeli sonuçları olabilir. 
 cat -> Dosyasının içinde bulunan yazıyı terminale basan komuta verilen isimdir. Komutun kullanımının genel biçimi: cat <dosya ismi>
 chmod -> Dosya izinlerini değiştirmekted kullanılan son derece önemli bir komuttur.
 man -> Bu komut Linux komutları hakkında bilgi alınmasını sağlar. Genel kullanımı: man <komut ismi> şeklindedir.
