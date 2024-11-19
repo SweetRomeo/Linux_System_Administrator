@@ -87,4 +87,4 @@ ls -l | tee file1 file2 file3
 Yukarıdaki komutta terminalin yanı sıra file1, file2 ve file3 dosyalarının tamamına basma işlemi yapılır.
 
 Pipes:
-
+more and tail
