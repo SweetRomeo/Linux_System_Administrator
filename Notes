@@ -37,6 +37,7 @@ rm -> Açılımı remove olan bu komut dosya kaldırmada kullanılan bir komuttu
 cat -> Dosyasının içinde bulunan yazıyı terminale basan komuta verilen isimdir. Komutun kullanımının genel biçimi: cat <dosya ismi>
 chmod -> Dosya izinlerini değiştirmekted kullanılan son derece önemli bir komuttur.
 man -> Bu komut Linux komutları hakkında bilgi alınmasını sağlar. Genel kullanımı: man <komut ismi> şeklindedir.
+mv -> Açılımı move olan bu komut adından da anlaşılabileceği gibi bir dosyayı taşımaya yarar. Kullanımın genel biçimi: mv <kopyalanıcak dosya ismi> <taşınacağı dosya dizimi>
 
 Wildcards(*, ?, [])
 Bu ifadeler bazı işlemlerin daha kolay yapılmasına katkı sağlamaktadır. Örneğin aynı yazıyla başlayan birden fazla dosyanın tek bir komut ile 
