@@ -50,9 +50,9 @@ ls -l ?bcd*
 Başında herhangi bir karakter olsun sadece ondan sonraki 3 karakter bcd şekilnde olsun diyebiliriz.
 -> [] yani köşeli parantez ise aşağıdaki örnekte:
 ls -l *[cd]* 
-c veya d karakterinin herhangi birini isminde olan dosyaları ekrana yazdıran komuttur.
+c veya d karakterlerinin herhangi birini isminde olan dosyaları ekrana yazdıran komuttur.
 Soft and Hard Links
-
+//EKLEME YAPILACAK
 
 --------------------------------------------------------
 For Studying:
@@ -68,4 +68,7 @@ Also create a hard link of jupiter in /tmp directory
 
 Check the inodes of both links 
 --------------------------------------------------------
+
+Linuxta input ve output işlemleri
+
 
