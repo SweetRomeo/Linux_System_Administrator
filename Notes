@@ -70,5 +70,14 @@ Check the inodes of both links
 --------------------------------------------------------
 
 Linuxta input ve output işlemleri
+Herhangi bir komut doğrudan çalıştırıldığında elde edilecek çıktı doğrudan terminale basılır. Ancak komutun çalışmasında elde edilecek yazının 
+şüphesiz kullanıcının istediği bir dosyaya da basılması mümkündür. bu işlem aşağıdaki örnekte gösterildiği gibi yapılabilir. Burada hedef 
+ls -l komutunun "listings" isimli dosyaya yazdırılmasıdır.
+ls -l > listings
+cat listings
+Yukarıda kullanılmış olan cat komutu ise dosyada bulunan yazının ekrana basılmasında kullanılmaktadır.
+yazmada kullanılan diğer bir ifade ise ">>" ifadesidir. ">" ve ">>" ifadelerinin tek farkı birincisi 
+override ederek yani yazılacak dosyada herhangi başka yazı var tamamen boşaltıp yerine o yazıyı yazan bir özelliğe sahiptir.
+Diğer taraftan ">>" ifadesi ise dosyayı override etmez ekleyerek yazar.
 
 
