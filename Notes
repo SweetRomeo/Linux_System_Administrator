@@ -80,5 +80,11 @@ yazmada kullanılan diğer bir ifade ise ">>" ifadesidir. ">" ve ">>" ifadelerin
 override ederek yani yazılacak dosyada herhangi başka yazı var tamamen boşaltıp yerine o yazıyı yazan bir özelliğe sahiptir.
 Diğer taraftan ">>" ifadesi ise dosyayı override etmez ekleyerek yazar.
 
+tee komutu:
 tee komutu bir yandan dosyaya yazılırken aynı zamanda da ekrana terminale basma yapılmasını mümkün kılar. Mesela 
 aşağıdaki örnekte ls -l komutuyla hem terminale hem de dosyaya yazma işlemi gerçekleştirilir.
+ls -l | tee file1 file2 file3
+Yukarıdaki komutta terminalin yanı sıra file1, file2 ve file3 dosyalarının tamamına basma işlemi yapılır.
+
+Pipes:
+
