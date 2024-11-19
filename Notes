@@ -88,3 +88,4 @@ Yukarıdaki komutta terminalin yanı sıra file1, file2 ve file3 dosyalarının 
 
 Pipes:
 more and tail
+ls -l | more
