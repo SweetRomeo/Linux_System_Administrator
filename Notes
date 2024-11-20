@@ -94,11 +94,25 @@ more and tail
 ls -l | more
 
 File Display Commands
-- cat
+- cat(cat <dosya ismi>)
 - more(more <dosya ismi>)
 - less(less <dosya ismi>)
-- head
-- tail
+- head (head -2 <dosya ismi>: dosyada bulunan ilk 2 satırı terminale bas.)
+- tail (tail -2 <dosya ismi>: dosyada bulunan son 2 satırı terminale bas.)
+
+Text Processors Commands
+- cut komutu: Bu komut sadece dosya ismiyle çalışmaz ancak Aşağıdaki gibi varjantları çalışır:
+cut --version: 
+cut -c1 <dosya ismi>: Dosyadaki her satırın ilk karakterini terminale basar.
+cut -c1,3,5,7 <dosya ismi>: Bu komut dosyada bulunan her satırdaki 3. 5. ve 7. satırdaki karakteriler hariç bütün karakterleri siler.
+cut -c1-3 <dosya ismi>: Dosyadaki her satırdaki ilk 3 karakteri elde eder.
+cut -c1-3,6-8 <dosya ismi>: Dosyadaki her satırdaki ilk 3 karakterle birlikte 6,7 ve 8. karakterleri de elde eden komuttur.
+cut -b1-3 <dosya ismi>: Dosyadaki her satırda bulunan bit uzunluğunu verir.
+cut -d: -f 6 /etc/passwd : 
+cut -d: -f 6-7 /etc/passwd: 
+ls -l | cut -c2-4: 
+
+
 
 
 
