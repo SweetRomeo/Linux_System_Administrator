@@ -92,3 +92,14 @@ Yukarıdaki komutta terminalin yanı sıra file1, file2 ve file3 dosyalarının 
 Pipes:
 more and tail
 ls -l | more
+
+File Display Commands
+- cat
+- more(more <dosya ismi>)
+- less(less <dosya ismi>)
+- head
+- tail
+
+
+
+
