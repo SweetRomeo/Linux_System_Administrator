@@ -87,7 +87,25 @@ Başında herhangi bir karakter olsun sadece ondan sonraki 3 karakter bcd şekil
 ls -l *[cd]* 
 c veya d karakterlerinin herhangi birini isminde olan dosyaları ekrana yazdıran komuttur.
 Soft and Hard Links
-//EKLEME YAPILACAK
+inode = Pointer or number of a file on the hard disk
+inode aslında dosyanın adresi için kullanılan bir terimdir. Bilgisayar bizim 
+gibi isim üzerinden dosyalarla çalışmaz adresleri temel alarak 
+dosyalara ulaşır.
+Soft Link: Söz konusu link kaldırılır veya yeniden isimlendirilir. Bu işlem "ln -s" komutuyla yapılır. 
+Hard Link: orijinal dosyada Silme, yeniden isimlendirme veya taşıma işlemleri  Hard Linki, doğrudan veya dolaylı olarak etkilemez.
+Bu işlem "ln -s" komutuyla yapılır.
+Anahtar Notlar: /tmp directory konumuna gidilmeden soft ve hard link oluşturulması mümkün değildir. Bu sebeple
+ln -s <dosya uzantısı>
+komutu kullanılarak dosya belirtilen dizime soft link oluşturur.
+- Soft Linkte kaynak dosya silindiği zaman dosya rengi tmp diziminde kırmızıya döner ve uzantı görünse bile 
+herhangi bir işlem yapılamaz. Yapılmaya kalkılması durumunda ise "No such directory or file" hatası oluşur.
+Hard Link: "ln" komutu kullanılarak oluşturulur. Genel biçimi:
+ln <dosya uzantısı>
+- Hard linkte gösterilen bir dizim yoktur. Bu sebeple kullanılan kaynak dosya silinse bile hard link kullanılabilir.
+- Hard linkte dosyada yapılan herhangi bir ekleme doğrudan linkte bulunan dosyayı da etkiler.
+Özet: Hard linkte kaynak dosya silinse de silinmemiş gibi kullanılabilir. Ancak Soft linkte dosya silindiği takdirde 
+hiçbir şekilde kullanılamaz.
+
 
 --------------------------------------------------------
 For Studying:
