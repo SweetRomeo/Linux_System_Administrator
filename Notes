@@ -23,6 +23,13 @@ Linux Varyantları
 - Linux Mint   - Gentoo - Slackware
 - Alpine Linux - Kali Linux
 
+Linux vs Windows
+- Linux Open Source yani ücretsiz ancak Windows ücretlidir.
+- Linux kullanıcı sayısı da az olmasından dolayı Windows'a kıyasla daha güvenilir.
+- Linux kararlılık ve performans olarak Windows'tan daha iyidir.
+
+
+
 Cmd yönteici olarak çalıştırılır sonrasında Ubuntu indirilmesi için aşağıdaki komut çalıştırılır:
 wsl --install
 
