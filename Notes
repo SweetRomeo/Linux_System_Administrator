@@ -16,6 +16,12 @@ Unix vs Linux
 Linux pek çok firma ve geliştirici topluluğu(Developer Community) tarafından kullanılmaktadır.  Bunlar: RedHat, CentOS, Debian, Ubuntu, 
 Linux Mint ve benzeri. Unix ise genellikle Sun firması tarafından kullanılmaktadır.
 
+Linux Varyantları
+- Ubuntu   - Fedora   - Debian
+- Red Hat Enterprise Linux(RHEL)
+- CentOS   - Arch Linux   - openSUSE
+- Linux Mint   - Gentoo - Slackware
+- Alpine Linux - Kali Linux
 
 Cmd yönteici olarak çalıştırılır sonrasında Ubuntu indirilmesi için aşağıdaki komut çalıştırılır:
 wsl --install
