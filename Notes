@@ -1,3 +1,17 @@
+İşletim sistemi nedir?
+Kullanıcıyla cihaz donanımı arasında bir köprü görevi gören yazılımlara işletim sistemi adı verilir.
+Örneğin en basitinden Klavye mouse gibi araçları kullanırken bizim donanmına bir bilgi göndermemiz gerekmektedir. Bu noktada görev alan sistem yazılımlarına 
+işletim sistemi denir.
+
+Linux İşletim Sisteminin genel özellikleri
+- Linux 1991 yılında Linus Torvalds tarafından bulunmuştur.
+- Linux çoğunlukla ücretsizdir. Ancak RedHat firmasından eğitim veya sertifika almak ücretlidir.
+- Linux bir işletim sistemidir. Piyasada kullanılan diğer işletim sistemleri MacOS ve Windowstur.
+- Linux'un önemli özelliği her işlemin terminal üzerinden yapılabilmesinden kaynaklanmaktadır. Bu sayede çok daha hızlı çalışır.
+Kısaca Linux'u bu kadar popüler yapan sahip olduğu command prompt işlevselliğidir.
+- Linux öncesinde 1970 yılında Bell Labs'te Dennis Richie tarafından Linux'un temelini oluşturan Unix işletim sistemi ortaya konulmuştur.
+- Linux Open Source(açık kaynak) bir işletim sistemidir.
+
 Cmd yönteici olarak çalıştırılır sonrasında Ubuntu indirilmesi için aşağıdaki komut çalıştırılır:
 wsl --install
 
