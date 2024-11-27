@@ -12,6 +12,11 @@ Kısaca Linux'u bu kadar popüler yapan sahip olduğu command prompt işlevselli
 - Linux öncesinde 1970 yılında Bell Labs'te Dennis Richie tarafından Linux'un temelini oluşturan Unix işletim sistemi ortaya konulmuştur.
 - Linux Open Source(açık kaynak) bir işletim sistemidir.
 
+Unix vs Linux
+Linux pek çok firma ve geliştirici topluluğu(Developer Community) tarafından kullanılmaktadır.  Bunlar: RedHat, CentOS, Debian, Ubuntu, 
+Linux Mint ve benzeri. Unix ise genellikle Sun firması tarafından kullanılmaktadır.
+
+
 Cmd yönteici olarak çalıştırılır sonrasında Ubuntu indirilmesi için aşağıdaki komut çalıştırılır:
 wsl --install
 
