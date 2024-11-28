@@ -134,6 +134,13 @@ Her dosya izinlerde 3 farklı seviye vardır. Bu seviyeler:
 - Dosyaların izinleri hakkında bilgiler "ls -l" komutu kullanılarak görüntülebilir. Bu komut çalıştırıldığında en başta bulunan
 yazı bu izinleri ifade etmektedir.
 - İzinleri değiştirmek için kullanılan komut daha önce de belirtiğimiz gibi "chmod" komutudur.
+- Örneğin "chmod u-w dosya1" komutu çalıştırıldığında dosya1 dosyası için kullanının yazma izni varsa kaldırılır. 
+- Kullanıcıda olmayan bir izin olduğu durumlarda bu eylemleri gerçekleştirme girişimi Permission denied hatasıyla sonlanır. 
+Örneğin read yani okuma izni olmayan bir dosya için "cat" komutu çalıştırılmak istenmesi durumunda böyle bir hatayla karşılaşılır.
+- "chmod a-w <dosya ismi>" komutuyla birlikte 3 seviyenin tamamındaki write yani yazma izinleri kapatılır.
+- İzinlerin açılmasında ise "-" yerine "+" ifadesi kullanılır. Örneğin user için yazma izni açılmak isteniyorsa, bu durumda "chmod u+w <dosya ismi>"
+şeklinde bir komut çalıştırılır.
+- 
 
 Linuxta input ve output işlemleri
 Herhangi bir komut doğrudan çalıştırıldığında elde edilecek çıktı doğrudan terminale basılır. Ancak komutun çalışmasında elde edilecek yazının 
