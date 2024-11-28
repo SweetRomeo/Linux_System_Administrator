@@ -140,7 +140,9 @@ yazı bu izinleri ifade etmektedir.
 - "chmod a-w <dosya ismi>" komutuyla birlikte 3 seviyenin tamamındaki write yani yazma izinleri kapatılır.
 - İzinlerin açılmasında ise "-" yerine "+" ifadesi kullanılır. Örneğin user için yazma izni açılmak isteniyorsa, bu durumda "chmod u+w <dosya ismi>"
 şeklinde bir komut çalıştırılır.
-- 
+- İzinlerin çalışması tek seferde birden fazla da olabilir. Örneğin hem yazma hem okuma özelliği açılmak isteniyorsa, bu durumda "chmod u+rw <dosya ismi>"
+şeklinde bir komut çalıştırılarak, bu işlem gerçekleştirilir.
+- Execute izni eğer bir directory'de mevcut değilse, bu durumda o directory'e girilemez. Örneğin "chmod a-x <dir. ismi>" komutu sonucunda 
 
 Linuxta input ve output işlemleri
 Herhangi bir komut doğrudan çalıştırıldığında elde edilecek çıktı doğrudan terminale basılır. Ancak komutun çalışmasında elde edilecek yazının 
