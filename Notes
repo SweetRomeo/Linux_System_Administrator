@@ -174,7 +174,26 @@ Dosya sahipliği değiştirmek için "chown" komutu kullanılmaktadır. Bu komut
 Çözüm: chown root lisa
 ----------------------------------------------------
 Access Control List(ACL- Erişim Kontrol Listesi)
+1-) Kullanıcıya izin ekleme komutu
+setfacl -m u:user:rwx /path/to/file
 
+2-) Gruba(Group) izin eklemek
+setfacl -m g:group:rw /path/to/file
+
+3-) To allow all the files or directories to inherit ACL entries from the directory it is within
+setfacl -dm "entry" /path/to/dir
+
+4-) To remove a specific entry
+setfacl -x u:user /path/to/file
+
+5-) To remove all entries
+setfacl -b path/to/file
+
+Help Commands(Yardımcı Komutlar)
+Linuxta 3 farklı yardım komutu mevcuttur:
+1-) whatis <komut>
+2-) <komut> --help
+3-) man <komut>
 
 Linuxta input ve output işlemleri
 Herhangi bir komut doğrudan çalıştırıldığında elde edilecek çıktı doğrudan terminale basılır. Ancak komutun çalışmasında elde edilecek yazının 
