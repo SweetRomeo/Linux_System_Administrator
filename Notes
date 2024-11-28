@@ -171,7 +171,9 @@ Dosya sahibi iki adet olabilir:
 Dosya sahipliği değiştirmek için "chown" komutu kullanılmaktadır. Bu komutun kullanımın genel biçimi
 "chown <sahiplenecek kullanıcı(username or root)> <sahiplenilecek dosya ismi>"
 Örnek: İsmi lisa olan dosyanın erişim iznini root yapan Linux terminal komutunu yazınız.
-
+Çözüm: chown root lisa
+----------------------------------------------------
+Access Control List(ACL- Erişim Kontrol Listesi)
 
 
 Linuxta input ve output işlemleri
