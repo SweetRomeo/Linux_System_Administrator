@@ -195,6 +195,11 @@ Linuxta 3 farklı yardım komutu mevcuttur:
 2-) <komut> --help
 3-) man <komut>
 
+Örnekler:
+- whatis ls
+- whatis cd
+- 
+
 Linuxta input ve output işlemleri
 Herhangi bir komut doğrudan çalıştırıldığında elde edilecek çıktı doğrudan terminale basılır. Ancak komutun çalışmasında elde edilecek yazının 
 şüphesiz kullanıcının istediği bir dosyaya da basılması mümkündür. bu işlem aşağıdaki örnekte gösterildiği gibi yapılabilir. Burada hedef 
