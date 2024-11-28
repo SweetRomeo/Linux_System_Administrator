@@ -122,6 +122,19 @@ Also create a hard link of jupiter in /tmp directory
 Check the inodes of both links 
 --------------------------------------------------------
 
+Linuxta Dosya izinleri
+Dosyalara ait 3 farklı izin mevcuttur. Bunlar:
+1-) r - Read(Okuma)
+2-) w - Write(Yazma)
+3-) x - Execute(çalıştırma):Bu izin dosyanın bir script olması durumunda geçerlidir.
+Her dosya izinlerde 3 farklı seviye vardır. Bu seviyeler:
+1-) u - User(Kendimiz)
+2-) g - Group(Projede bulunan farklı kişiler olabilir.)
+3-) o - other(Sistemdeki herkes)
+- Dosyaların izinleri hakkında bilgiler "ls -l" komutu kullanılarak görüntülebilir. Bu komut çalıştırıldığında en başta bulunan
+yazı bu izinleri ifade etmektedir.
+- İzinleri değiştirmek için kullanılan komut daha önce de belirtiğimiz gibi "chmod" komutudur.
+
 Linuxta input ve output işlemleri
 Herhangi bir komut doğrudan çalıştırıldığında elde edilecek çıktı doğrudan terminale basılır. Ancak komutun çalışmasında elde edilecek yazının 
 şüphesiz kullanıcının istediği bir dosyaya da basılması mümkündür. bu işlem aşağıdaki örnekte gösterildiği gibi yapılabilir. Burada hedef 
