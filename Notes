@@ -142,7 +142,37 @@ yazı bu izinleri ifade etmektedir.
 şeklinde bir komut çalıştırılır.
 - İzinlerin çalışması tek seferde birden fazla da olabilir. Örneğin hem yazma hem okuma özelliği açılmak isteniyorsa, bu durumda "chmod u+rw <dosya ismi>"
 şeklinde bir komut çalıştırılarak, bu işlem gerçekleştirilir.
-- Execute izni eğer bir directory'de mevcut değilse, bu durumda o directory'e girilemez. Örneğin "chmod a-x <dir. ismi>" komutu sonucunda 
+- Execute izni eğer bir directory'de mevcut değilse, bu durumda o directory'e girilemez. Örneğin "chmod a-x <dir. ismi>" komutu sonucunda gerçekleşir.
+Permission Using Numeric Mode
+Dosyaların daha önce belirtiğimiz yöntemden farklı olarak nümerik yöntem kullanılarak da izinlerinin değiştirilmesi mümkündür. Aşağıdaki tabloda 
+numaraya bağlı olarak hangi izinlerin açılacağı açıklanmıştır.
+Number      Permission Type            Symbol
+  0         No Permission              ---
+  1         Execute                    --x
+  2         Write                      -w-
+  3         Execute + Write            -wx
+  4         Read                       r--
+  5         Read + Execute             r-x
+  6         Read + Write               rw-
+  7         Read + Write + Execute     rwx
+Bu tabloya göre "chmod 764 <dosya ismi>" komutu çalıştırılsa 764 sayısının rakamları basamak basamak 
+incelenir. Buna göre:
+7 -> Read + Write + Execute -> rwx -> User(u)
+6 -> Read + Write -> rw- -> Group(g)
+4 -> Read -> r-- -> Other(o)
+Şeklinde olacaktır. Yani bu komut aslında izinleri farklı bir yoldan değiştirmeye yarar. Bu örnek için 
+ls -l yapıldığında dosyanın sembol kısmı aşağıdaki gibi olmalıdır:
+"-rwxrw-r--" şeklinde olacaktır.
+Örnekler eklenecek!!
+File Ownership(Dosya sahipliği)
+Dosya sahibi iki adet olabilir:
+1-) User
+2-) Group
+Dosya sahipliği değiştirmek için "chown" komutu kullanılmaktadır. Bu komutun kullanımın genel biçimi
+"chown <sahiplenecek kullanıcı(username or root)> <sahiplenilecek dosya ismi>"
+Örnek: İsmi lisa olan dosyanın erişim iznini root yapan Linux terminal komutunu yazınız.
+
+
 
 Linuxta input ve output işlemleri
 Herhangi bir komut doğrudan çalıştırıldığında elde edilecek çıktı doğrudan terminale basılır. Ancak komutun çalışmasında elde edilecek yazının 
