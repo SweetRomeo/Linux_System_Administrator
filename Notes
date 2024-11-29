@@ -233,7 +233,7 @@ wc -c file1
 - ls -l komudundan elde edilecek olan terminal çıktısı da dosyaya yazdırılabilir. Örneğin:
 ls -l | tee listdir
 komutu terminale ls -l çıktısını vermesinin yanı sıra bunu listdir dosyasının içerisine de yazacaktır.
-
+- tee komutuyla birden fazla dosyaya da yazma yapılabilir. Örneğin:
 ls -l | tee file1 file2 file3
 Yukarıdaki komutta terminalin yanı sıra file1, file2 ve file3 dosyalarının tamamına basma işlemi yapılır.
 
