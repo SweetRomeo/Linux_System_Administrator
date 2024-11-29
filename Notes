@@ -238,6 +238,9 @@ ls -l | tee file1 file2 file3
 Yukarıdaki komutta terminalin yanı sıra file1, file2 ve file3 dosyalarının tamamına basma işlemi yapılır.
 
 Pipes:
+Genel biçimi:
+command1 <arguments> | command2 <arguments>
+şeklinde söylebilir. 
 more and tail
 ls -l | more
 
