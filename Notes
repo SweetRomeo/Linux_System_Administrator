@@ -198,7 +198,10 @@ Linuxta 3 farklı yardım komutu mevcuttur:
 Örnekler:
 - whatis ls
 - whatis cd
-- 
+- man ls
+- man cd
+- ls --help
+- cd --help
 
 Linuxta input ve output işlemleri
 Herhangi bir komut doğrudan çalıştırıldığında elde edilecek çıktı doğrudan terminale basılır. Ancak komutun çalışmasında elde edilecek yazının 
