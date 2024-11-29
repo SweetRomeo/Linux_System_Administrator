@@ -217,6 +217,23 @@ Diğer taraftan ">>" ifadesi ise dosyayı override etmez ekleyerek yazar.
 tee komutu:
 tee komutu bir yandan dosyaya yazılırken aynı zamanda da ekrana terminale basma yapılmasını mümkün kılar. Mesela 
 aşağıdaki örnekte ls -l komutuyla hem terminale hem de dosyaya yazma işlemi gerçekleştirilir.
+Örnekler:
+echo "Berke" | tee file1
+Yukarıdaki komut ile birlikte hem Berke yazısı terminale hem de file1 dosyasına basılacaktır.
+echo "Sertel" | tee file1
+tee komutu eğer ilk yazılan komuttan sonra kullanılırsa bu durumda override eder. Ancak üzerine ekleme yapmak 
+isteniyorsa bu durumda -a ile kullanılması gerekmektedir.
+echo "Sertel" | tee -a file1
+Komut bu şekilde çalıştırıldığı takdirde override etmek yerine ekleyerek yazar.
+Sonrasında "cat file1" komutu çalıştırıldığı takdirde terminale "Berke Sertel" yazısı 
+basılacaktır. 
+- Karakter sayısını elde elden bir komut olan wc de bu noktada işimize yarayan bir komuttur. Aşağıda
+örnek bir kullanımı verilmiştir:
+wc -c file1
+- ls -l komudundan elde edilecek olan terminal çıktısı da dosyaya yazdırılabilir. Örneğin:
+ls -l | tee listdir
+komutu terminale ls -l çıktısını vermesinin yanı sıra bunu listdir dosyasının içerisine de yazacaktır.
+
 ls -l | tee file1 file2 file3
 Yukarıdaki komutta terminalin yanı sıra file1, file2 ve file3 dosyalarının tamamına basma işlemi yapılır.
 
