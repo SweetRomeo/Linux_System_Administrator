@@ -237,12 +237,15 @@ komutu terminale ls -l çıktısını vermesinin yanı sıra bunu listdir dosyas
 ls -l | tee file1 file2 file3
 Yukarıdaki komutta terminalin yanı sıra file1, file2 ve file3 dosyalarının tamamına basma işlemi yapılır.
 
-Pipes:
+Pipes: Bu özellikle birlikte aynı anda birden fazla komut çalıştırılabilir.
 Genel biçimi:
 command1 <arguments> | command2 <arguments>
 şeklinde söylebilir. 
 more and tail
 ls -l | more
+pipe tail aşağıdaki gibi ls -l ile birlikte kullanılırsa bu durumda son satır elde edilir.
+ls -l | tail
+
 
 File Display Commands
 - cat(cat <dosya ismi>)
