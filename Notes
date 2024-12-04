@@ -248,13 +248,20 @@ ls -l | tail
 
 
 File Display Commands
-- cat(cat <dosya ismi>)
-- more(more <dosya ismi>)
-- less(less <dosya ismi>)
+- cat(cat <dosya ismi>): Dosya içerisini yazdırır.
+- more(more <dosya ismi>): Dosya içeriğini sayfa sayfa gösterir. "q" karakteri kullanılarak çıkılabilir.
+- less(less <dosya ismi>): Dosya içeriğine her aşağıya inişte 1 satır ekleyerek gider. "q" karakteriyle bu menuden çıkılabilir.
 - head (head -2 <dosya ismi>: dosyada bulunan ilk 2 satırı terminale bas.)
 - tail (tail -2 <dosya ismi>: dosyada bulunan son 2 satırı terminale bas.)
 
 Text Processors Commands
+- cut
+- awk
+- grep ve egrep
+- sort
+- uniq
+- wc
+-----------------------------------------------------------------------------------------------
 - cut komutu: Bu komut sadece dosya ismiyle çalışmaz ancak Aşağıdaki gibi varjantları çalışır:
 cut --version: 
 cut -c1 <dosya ismi>: Dosyadaki her satırın ilk karakterini terminale basar.
