@@ -279,7 +279,10 @@ awk '(print $1)' <dosya ismi>: dosyadaki ilk sütunların tamamını elde eder.
 awk '(print $2)' <dosya ismi>: dosyadaki ikinci sütunların tamamını elde eder.
 ls -l | awk '(print $1,$3)': ls -l komutundan elde edilen terminal çıktısındaki 1. ve 3. sütunu elde eden komuttur.
 ls -l | awk '(print $NF)': ls -l komutundan elde edilen terminal çıktısındaki son sütununu elde eden komuttur.
-awk '/Jerry (print)' <dosya ismi>: içerisinde Jerry uzantısı geçen tüm satırları elde eder.
+awk '/Jerry (print)' <dosya ismi>: içerisinde Jerry yazısı geçen tüm satırları elde eder.
+awk -F: '{print $1}' /etc/passwd: Tüm usernameleri elde eden komuttur. Buradaki /etc/passwd herhangi başka bir uzantı da olabilirdi.
+echo "Hello Tom" | awk '{$2 = "Adam"; print $0}' : Hello Tom yazısındaki ikinci yazıyı Adam ile replace et anlamına gelir.
+cat <dosya ismi> | awk '{$2 = "Imran"; print $0}': hedef dosyadaki tüm 2 numarayı kelimeleri Imran ile değiştirir.
 
 
 
