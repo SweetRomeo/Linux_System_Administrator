@@ -313,5 +313,20 @@ sort <dosya ismi> | uniq -d: Sadece tekrar eden satırları gösterir.
 wc --version or wc --help 
 wc <dosya ismi>: Hedef dosyanın satır sayısını, kelime sayısını ve bayt sayısını elde eder.
 wc -l <dosya ismi>: Hedef dosyanın yalnızca satır sayısını elde eden komut.
-wc 
+wc -w <dosya ismi>: Hedef dosyanın yalnızca kelime sayısını elde eden komut.
+wc -c <dosya ismi>: Hedef dosyanın yalnızca bayt sayısını elde eden komut.
+wc komutu dir. ile çalışmaz.
+ls -l | wc -l: ls -l komudunun terminal çıktısınında kaç adet dosya olduğunu terminale yazdıran komuttur.
+ls -l | grep drw | wc -l: ls -l komudunun terminal çıktısınında kaç adet directory olduğunu terminale yazdıran komuttur.
+grep <aranacak sözcük> | wc -l: içerisinde aranacak sözcüğün geçme sayısı terminale basar.
+
+-Dosya karşılaştırma komutları
+diff <dosya1> <dosya2>
+cmp <dosya1> <dosya2>
+
+- Sıkıştırma ve Ayıklama komutları
+tar
+gzip
+gzip -d or gunzip
+
 
