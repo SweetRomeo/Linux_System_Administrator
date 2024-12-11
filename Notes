@@ -288,4 +288,12 @@ ls -l | awk '(if($9 == "seinfeld") print $0;)': ls -l komutundan elde edilen ter
 basan komut.
 ls -l | awk '{print NF}': ls -l komutundan elde edilen field sayılarını her satır için veren komut.
 
+- grep ve egrep komutları:
+grep --version or grep --help
+grep <aranacak kelime> <aranacak dosya ismi>: Dosya içeriğinde bulunan aranan kriterlere uygun olanları terminale basar.
+grep -c <aranacak kelime> <aranacak dosya ismi>: Dosya içeriğinde bulunan aranan kriterlere uygun olanların sayısını terminale basar.
+grep -i <aranacak kelime> <aranacak dosya ismi>: Dosya içeriğinde bulunan aranan kriterlere uygun olanları büyük-küçük harf ayırmaksızın terminale basar.
+grep -n <aranacak kelime> <aranacak dosya ismi>: Dosya içeriğinde bulunan aranan kriterlere uygun olanlarını kaçıncı satırda oldukları bilgisiyle bi terminale basar.
+grep -vi <aranacak kelime> <aranacak dosya ismi>: Dosya içeriğinde bulunan aranan kriterlere uygun olmayanları terminale basar.
+
 
