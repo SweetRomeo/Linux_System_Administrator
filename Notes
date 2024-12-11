@@ -295,5 +295,7 @@ grep -c <aranacak kelime> <aranacak dosya ismi>: Dosya içeriğinde bulunan aran
 grep -i <aranacak kelime> <aranacak dosya ismi>: Dosya içeriğinde bulunan aranan kriterlere uygun olanları büyük-küçük harf ayırmaksızın terminale basar.
 grep -n <aranacak kelime> <aranacak dosya ismi>: Dosya içeriğinde bulunan aranan kriterlere uygun olanlarını kaçıncı satırda oldukları bilgisiyle bi terminale basar.
 grep -vi <aranacak kelime> <aranacak dosya ismi>: Dosya içeriğinde bulunan aranan kriterlere uygun olmayanları terminale basar.
-
+grep <aranacak kelime> <aranacak dosya ismi> | awk '{print $1}': Dosya içeriğinde bulunan aranan kriterlere uygun olanlarının yalnızca ilk kelimelerini terminale basar.
+ls -l | grep Desktop: ls -l komutundan elde edilen terminal çıktısının içerisinde Desktop yani Masaüstü kelimesini aratır. Bulunanları terminale basar.
+egrep -i "<aranacak kelime1> | <aranacak kelime2>" <dosya ismi>: Aranacak kelimelerden herhangi birini içeren dosya satırını terminale basan komut.
 
