@@ -310,4 +310,8 @@ sort <dosya ismi> | uniq -c: önce sort işlemini yapar ardından da sort işlem
 sort <dosya ismi> | uniq -d: Sadece tekrar eden satırları gösterir.
 
 -wc komutu:
+wc --version or wc --help 
+wc <dosya ismi>: Hedef dosyanın satır sayısını, kelime sayısını ve bayt sayısını elde eder.
+wc -l <dosya ismi>: Hedef dosyanın yalnızca satır sayısını elde eden komut.
+
 
