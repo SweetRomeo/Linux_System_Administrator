@@ -283,6 +283,9 @@ awk '/Jerry (print)' <dosya ismi>: içerisinde Jerry yazısı geçen tüm satır
 awk -F: '{print $1}' /etc/passwd: Tüm usernameleri elde eden komuttur. Buradaki /etc/passwd herhangi başka bir uzantı da olabilirdi.
 echo "Hello Tom" | awk '{$2 = "Adam"; print $0}' : Hello Tom yazısındaki ikinci yazıyı Adam ile replace et anlamına gelir.
 cat <dosya ismi> | awk '{$2 = "Imran"; print $0}': hedef dosyadaki tüm 2 numarayı kelimeleri Imran ile değiştirir.
-
+awk 'length($0) > 15' <dosya ismi>: Hedef dosyada uzunluğu 15 ten büyük olan yazılara elde edilir.
+ls -l | awk '(if($9 == "seinfeld") print $0;)': ls -l komutundan elde edilen terminal çıktısında, 9.sütunu seinfield'a eşit olan satırları terminale 
+basan komut.
+ls -l | awk '{print NF}': ls -l komutundan elde edilen field sayılarını her satır için veren komut.
 
 
