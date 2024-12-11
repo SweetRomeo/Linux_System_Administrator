@@ -299,3 +299,15 @@ grep <aranacak kelime> <aranacak dosya ismi> | awk '{print $1}': Dosya içeriği
 ls -l | grep Desktop: ls -l komutundan elde edilen terminal çıktısının içerisinde Desktop yani Masaüstü kelimesini aratır. Bulunanları terminale basar.
 egrep -i "<aranacak kelime1> | <aranacak kelime2>" <dosya ismi>: Aranacak kelimelerden herhangi birini içeren dosya satırını terminale basan komut.
 
+-sort ve uniq komutları:
+sort --version or sort --help
+sort <dosya ismi>: dosyadaki satırları alfabetik sıraya göre sıralar.
+sort -r <dosya ismi>: dosyadaki satırları ters alfabetik sıraya göre sıralar.
+sort -k2 <dosya ismi>: dosyadaki satırları 2 numaralı satırdan itibaren sıralar.
+uniq <dosya ismi>: Dosyada tekrar eden içerikleri kaldırır.
+sort <dosya ismi> | uniq: uniq çalıştırılmadan önce mutlaka sort işlemi yapar
+sort <dosya ismi> | uniq -c: önce sort işlemini yapar ardından da sort işlemi gerçekleştirir.
+sort <dosya ismi> | uniq -d: Sadece tekrar eden satırları gösterir.
+
+-wc komutu:
+
