@@ -325,8 +325,34 @@ diff <dosya1> <dosya2>
 cmp <dosya1> <dosya2>
 
 - Sıkıştırma ve Ayıklama komutları
-tar
-gzip
-gzip -d or gunzip
+tar cvf <dosya ismi>.tar <sıkıştırılacak dosyaların uzantısı>: belirtilen uzantıdaki dosyaları belirtilen dosyadaki tara sıkıştırır.
+tar xvf <dosya ismi>.tar: Belirtilen dosyayı ayıklar.
+gzip <dosya ismi>.tar: Belirtilen dosyayı sıkıştırır.
+gzip -d <dosya ismi>.tar: Belirtilen dosyayı ayıklar.
+or gunzip
+
+- truncate komutu
+Bu komut hedef dosyanın uzunluğunu değiştirir. Dosya küçültüldüğü durumda boyutun almadığı kısımlar silinir.
+truncate -s <istenilen uzunluk> <dosya ismi>: Hedef dosyayı istenilen boyuta getirir.
+
+Dosya birleştirme ve ayırma işlemleri
+cat file1 file2 file3 > file4: file1, file2, file3 dosyalarını birleştirerek file4 dosyasını oluştur. 
+split file4: file4 dosyasını parçalara ayır.
+
+Linuxta çoklu komut kullanımı:
+Linuxta aynı zamanda birden fazla komut kullanılabilir. Bu işlem yapılırken komutlar arasında noktalı virgül(;) konulması yeterlidir:
+ls; mkdir directory; pwd => Bu örnekte 3 komut aynı anda çalıştırılmıştır.
+Anahtar Notlar: Eğer komutlardan biri geçersiz diğer komutlar geçerliyse bu durumda geçerli olanlar çalıştırılır. Geçerli olmayan 
+içinse hata mesajı oluşur.
+
+Windows ve Linux terminal komutları:
+Windows    Linux
+dir        ls -l
+ren        mv
+copy       cp
+move       mv
+cls        clear
+chdir      pwd
+time       date
 
 
