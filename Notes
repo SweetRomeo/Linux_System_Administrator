@@ -371,4 +371,10 @@ vi Komutu:
 - Bu komut çalıştırıldıktan sonra dosyadaki tek bir satır "d" karakteri kullanılarak silinebilir. Silinen satır "u" karakteriyle geri getirilebilir. 
 - Tek bir karakter ise "x" karakteriyle silinebilir.
 - Yapılan değişiklikleri kaydetmek için ise "zz" kullanılabilir.
-
+- Tek karakteri değişmek içinse "r" karakteri kullanılabilir. r karakterine basıldıktan sonra basılan ilk karakter seçili karakterin üzerine yazılır.
+- Eğer new line karakteri oluşturulmak isteniyorsa bu durumda "o" karakteri kullanılır.
+- insert modundayken esc karakteri kullanılarak insert modundan çıkılabilir.
+- "e" karakteri kullanılarak bir sonraki karaktere geçiş sağlanabilir.
+- iki defa "d" karakterinin kullanılmasıyla bulunulan satır silinir.
+- "/<aranacak kelime>" ile birlikte arama yapılabilir. 
+- 
