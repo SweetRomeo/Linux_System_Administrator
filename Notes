@@ -391,3 +391,4 @@ sed Komutu
 bu durum yalnızca terminale basılan yazıda değişir ancak dosya içeriğinde herhangi bir değişiklik söz konusu değildir.
 - Bu değişikliğin dosyada da yapılması istenmesi durumunda ise komut: sed -i 's/Kenny/Lenny/g' <dosya ismi>
 - Eğer istenilen yazı komple silinmek isteniyorsa bu durumda şu komut kullanılabilir: sed -i 's/Costanza//g' <dosya ismi>
+- Dosyadaki Seinfeld içeren tüm satırları kaldıran komut: sed '/Sei'
