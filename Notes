@@ -355,4 +355,20 @@ cls        clear
 chdir      pwd
 time       date
 
+QUIZ QUESTIONS
+1-)Hangi komutlar ile herkese okuma yetkisi ve kullanıcıya yazma yetkisi verilebilir?
+Cevap: chmod a+r filename
+       chmod u+w filename
+2-)Dosya sahipliği hangi komut ile değiştirilebilir?
+Cevap :chown
+3-) C
+
+vi Komutu:
+- Bu komut visual edit için kullanılır. 
+- Bu komut çalıştırılıdıktan sonra söz konusu dosya üzerinden düzenleme işlemi yapılabilir.
+- Bu komutun genel kullanımı vi <dosya ismi> şeklindedir.
+- Bu komuttan kayıt edip çıkmak için :wq! karakter kombinasyonu kullanılabilir.
+- Bu komut çalıştırıldıktan sonra dosyadaki tek bir satır "d" karakteri kullanılarak silinebilir. Silinen satır "u" karakteriyle geri getirilebilir. 
+- Tek bir karakter ise "x" karakteriyle silinebilir.
+- Yapılan değişiklikleri kaydetmek için ise "zz" kullanılabilir.
 
