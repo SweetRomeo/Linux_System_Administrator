@@ -378,3 +378,16 @@ vi Komutu:
 - iki defa "d" karakterinin kullanılmasıyla bulunulan satır silinir.
 - "/<aranacak kelime>" ile birlikte arama yapılabilir. 
 - 
+
+vi ve vim arasındaki farklar
+
+- vim editörünün sahip olduğu tüm özellikler vi'de bulunmaktadır.
+- www.openvim.com sitesinden bilgi sahibi olunabilir.
+
+sed Komutu
+
+- Bir dosyadaki stringi replace etmek için kullanılır.
+-  sed 's/Kenny/Lenny/g' <dosya ismi> komutuyla dosyadaki yazılarda bulunan Kenny kelimesini Lenny kelimesine dönüştüren komuttur. Ancak
+bu durum yalnızca terminale basılan yazıda değişir ancak dosya içeriğinde herhangi bir değişiklik söz konusu değildir.
+- Bu değişikliğin dosyada da yapılması istenmesi durumunda ise komut: sed -i 's/Kenny/Lenny/g' <dosya ismi>
+- Eğer istenilen yazı komple silinmek isteniyorsa bu durumda şu komut kullanılabilir: sed -i 's/Costanza//g' <dosya ismi>
