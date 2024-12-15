@@ -404,4 +404,16 @@ Kısaca değişikliğin doğrudan dosyayı etkilemesini istiyorsanız bu durumda
 - 8 numaralı satır haricindeki bütün satırlara bu işlemi uygulayan komut ise: sed '8!s/Seinfeld/S/' <dosya ismi>
 
 User Account Management
+Komutlar
+- useradd
+- groupadd
+- userdel
+- groupdel
+- usermod
+
+Dosyalar
+- /etc/passwd
+- /etc/group
+- /etc/shadow
+
 
