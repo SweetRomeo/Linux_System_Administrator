@@ -400,4 +400,8 @@ Kısaca değişikliğin doğrudan dosyayı etkilemesini istiyorsanız bu durumda
 - Dosyadaki 12-18 arası satırları elde etmek için komut:sed -n 12,18p <dosya ismi>
 - Dosyadaki 12-18 arası hariç tüm karakterleri elde eden komut: sed 12,18d <dosya ismi>
 - Dosyadaki her satır arasına boş satır koymak için komut: sed G <dosya ismi>
-- 
+- sed 's/Seindfeld/S/' <dosya ismi> şeklinde Seınfeld görünen yerlere 'S' harfi yazdıran komuttur.
+- 8 numaralı satır haricindeki bütün satırlara bu işlemi uygulayan komut ise: sed '8!s/Seinfeld/S/' <dosya ismi>
+
+User Account Management
+
