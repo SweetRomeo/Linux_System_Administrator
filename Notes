@@ -390,5 +390,14 @@ sed Komutu
 -  sed 's/Kenny/Lenny/g' <dosya ismi> komutuyla dosyadaki yazılarda bulunan Kenny kelimesini Lenny kelimesine dönüştüren komuttur. Ancak
 bu durum yalnızca terminale basılan yazıda değişir ancak dosya içeriğinde herhangi bir değişiklik söz konusu değildir.
 - Bu değişikliğin dosyada da yapılması istenmesi durumunda ise komut: sed -i 's/Kenny/Lenny/g' <dosya ismi>
+Kısaca değişikliğin doğrudan dosyayı etkilemesini istiyorsanız bu durumda sed komutunu -i seçeneği ile birlikte kullanmak gerekir. 
 - Eğer istenilen yazı komple silinmek isteniyorsa bu durumda şu komut kullanılabilir: sed -i 's/Costanza//g' <dosya ismi>
-- Dosyadaki Seinfeld içeren tüm satırları kaldıran komut: sed '/Sei'
+- Dosyadaki Seinfeld içeren tüm satırları kaldıran komut: sed '/Seinfield/d' <dosya ismi>
+- Boş satırların kaldırılması için ise bu komut kullanılabilir: sed -i '/^$/d' <dosya ismi>
+- İlk satırın kaldırılması içinse: sed 'ld' <dosya ismi> komutu kullanılarak yapılabilir.
+- İlk iki satırın kaldırılması içinse: sed 'l,2d' <dosya ismi> komutu kullanılarak yapılabilir.
+- Dosyadaki tüm tab karakterlerini boiluk ile değiştirmek için ise bu komut kullanılabilir: sed -i 's/\t/ /g' <dosya ismi>
+- Dosyadaki 12-18 arası satırları elde etmek için komut:sed -n 12,18p <dosya ismi>
+- Dosyadaki 12-18 arası hariç tüm karakterleri elde eden komut: sed 12,18d <dosya ismi>
+- Dosyadaki her satır arasına boş satır koymak için komut: sed G <dosya ismi>
+- 
