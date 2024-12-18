@@ -405,11 +405,13 @@ Kısaca değişikliğin doğrudan dosyayı etkilemesini istiyorsanız bu durumda
 
 User Account Management
 Komutlar
-- useradd
-- groupadd
-- userdel
-- groupdel
-- usermod
+- useradd: Bu komut kullanıcı(user) eklemeye yarayan bir komuttur. Ancak admin yetkisi alındıktan sonra kullanılabilir. Genel kullanım biçimi:
+"useradd <kullanıcı adı>" şeklindedir.
+- groupadd: Bu komut grup eklemekte kullanılan komuttur. Genel kullanım biçimi: "groupadd <grup ismi>" şeklindedir.
+- userdel: useradd komutunun tersi olan bu komut kullanıcı kaldırılmasına yarar. Şüphesiz bu komutu da kullanmak için root yetkisi şarttır. Genel kullanım biçimi:
+userdel <silinecek kullanıcı>
+- groupdel: groupadd komutunun tersi olan bu komut ise var olan grupların silinmesini sağlayan bir komuttur. Genel kullanım biçimi: "groupdel <silinecek grup>"
+- usermod: 
 
 Dosyalar
 - /etc/passwd
