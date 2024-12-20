@@ -411,11 +411,15 @@ Komutlar
 - userdel: useradd komutunun tersi olan bu komut kullanıcı kaldırılmasına yarar. Şüphesiz bu komutu da kullanmak için root yetkisi şarttır. Genel kullanım biçimi:
 userdel <silinecek kullanıcı>
 - groupdel: groupadd komutunun tersi olan bu komut ise var olan grupların silinmesini sağlayan bir komuttur. Genel kullanım biçimi: "groupdel <silinecek grup>"
-- usermod: 
+- usermod: Userı modify etmek için kullanılır. Örneğin "usermod -G superheros spiderman" komutu spiderman dosyasını superheros grubuna dahil eder. Dikkat edilmesi 
+gereken önemli kısım ise spiderman grubunun içerisindeki spiderman dosyasını hala hayatta olmasıdır. superheros dosyası onlardan bağımsızdır. Grubun superheros olması içinse
+"chgrp -R superheros spiderman" komutu çalıştırılmalıdır. 
 
 Dosyalar
 - /etc/passwd
 - /etc/group
 - /etc/shadow
+
+
 
 
