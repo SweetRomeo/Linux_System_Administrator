@@ -416,9 +416,10 @@ gereken önemli kısım ise spiderman grubunun içerisindeki spiderman dosyasın
 "chgrp -R superheros spiderman" komutu çalıştırılmalıdır. 
 
 Dosyalar
-- /etc/passwd
-- /etc/group
-- /etc/shadow
+- /etc/passwd: 
+- /etc/group: Grupların bulunduğu dosya dizimidir.
+- /etc/shadow: Şifrelerin bulunduğu şifrelenmiş bir dosya dizinidir.
+
 
 
 
