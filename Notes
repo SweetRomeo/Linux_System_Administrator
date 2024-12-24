@@ -452,9 +452,12 @@ sudo dmidecode
 
 Monitor Users
 -> who: giriş yapan kişi sayını verir.
--> last: 
--> w
--> finger
--> id
+-> last: giriş yapan tüm kullanıcılar hakkında bilgi verir.
+-> w: who komutuna benzer ancak biraz daha detaylısı.
+-> finger: 
+-> pinky:
+-> id:
+
+
 
 
