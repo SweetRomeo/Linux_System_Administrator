@@ -421,7 +421,7 @@ Dosyalar
 - /etc/shadow: Şifrelerin bulunduğu şifrelenmiş bir dosya dizinidir.
 
 - chage command 
-Örnek: chage [-m mindays] [-M maxdays] [-d lastday] [-I inactive] [-E expiredate] [-W warndays] user
+Örnek: chage [-m mindays] [-M maxdays] [-W warndays] [-d lastday] [-I inactive] [-E expiredate]  user
 
 - File = /etc/login.def
   - PASS_MAX_DAYS    99999
@@ -435,4 +435,13 @@ Dosyalar
 -W = 6.Warn
 -I = 7.Inactive
 -E = 8.Expire
+
+Switch Users and sudo Access
+Komutlar
+-> su - username
+-> sudo command
+-> visudo
+
+Dosya 
+-> /etc/sudoers
 
