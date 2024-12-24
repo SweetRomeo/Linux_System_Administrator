@@ -445,7 +445,9 @@ Komutlar
 
 Dosya 
 -> /etc/sudoers
-Örn:
+Örnekler:
 sudo fdisk -l
+usermod -aG wheel iafzal
+sudo dmidecode
 
 
