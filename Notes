@@ -460,9 +460,10 @@ Monitor Users
 
 Talking to Users
 -> users: Giriş yapmış olan kullanıcıları gösterir.
--> wall: Kullanımda olan kullanıcılara mesaj göndermek için kullanılan komuttur. ctrl + d kombinasyonuyla mesaj dönderiyip terminale geri dönülebilir.
+-> wall: Kullanımda olan kullanıcılara mesaj göndermek için kullanılan komuttur. ctrl + d kombinasyonuyla mesaj dönderiyip terminale geri dönülebilir. Bu mesaj tüm kullanıcılara gelir.
 -> write: wall komutunun istenilen kullanıcıya mesaj gönderme hali olarak düşünülebilir. Genel biçimi write <kullanıcı adı> şeklindedir.
 
+Linux Account Authentication
 
 
 
