@@ -420,7 +420,8 @@ Dosyalar
 - /etc/group: Grupların bulunduğu dosya dizimidir.
 - /etc/shadow: Şifrelerin bulunduğu şifrelenmiş bir dosya dizinidir.
 
-
+- chage command 
+Örnek: chage [-m mindays] [-M maxdays] [-d lastday] [-I inactive] [-E expiredate] [-W warndays] user
 
 
 
