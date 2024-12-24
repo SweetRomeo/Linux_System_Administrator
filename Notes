@@ -423,5 +423,10 @@ Dosyalar
 - chage command 
 Örnek: chage [-m mindays] [-M maxdays] [-d lastday] [-I inactive] [-E expiredate] [-W warndays] user
 
+- File = /etc/login.def
+  - PASS_MAX_DAYS    99999
+  - PASS_MIN_DAYS    0
+  - PASS_MIN_LEN     5
+  - PASS_WARN_AGE    7
 
 
