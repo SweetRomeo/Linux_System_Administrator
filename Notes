@@ -429,4 +429,10 @@ Dosyalar
   - PASS_MIN_LEN     5
   - PASS_WARN_AGE    7
 
+-d = 3.Last password change
+-m = 4.Minimum
+-M = 5.Maximum
+-W = 6.Warn
+-I = 7.Inactive
+-E = 8.Expire
 
