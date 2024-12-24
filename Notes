@@ -439,9 +439,13 @@ Dosyalar
 Switch Users and sudo Access
 Komutlar
 -> su - username
+-> su -
 -> sudo command
 -> visudo
 
 Dosya 
 -> /etc/sudoers
+Örn:
+sudo fdisk -l
+
 
