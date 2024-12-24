@@ -458,6 +458,11 @@ Monitor Users
 -> pinky:
 -> id:
 
+Talking to Users
+-> users: Giriş yapmış olan kullanıcıları gösterir.
+-> wall: Kullanımda olan kullanıcılara mesaj göndermek için kullanılan komuttur. ctrl + d kombinasyonuyla mesaj dönderiyip terminale geri dönülebilir.
+
+
 
 
 
