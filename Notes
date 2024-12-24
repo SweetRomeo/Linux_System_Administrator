@@ -451,5 +451,10 @@ usermod -aG wheel iafzal
 sudo dmidecode
 
 Monitor Users
+-> who: giriş yapan kişi sayını verir.
+-> last: 
+-> w
+-> finger
+-> id
 
 
