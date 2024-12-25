@@ -464,6 +464,13 @@ Talking to Users
 -> write: wall komutunun istenilen kullanıcıya mesaj gönderme hali olarak düşünülebilir. Genel biçimi write <kullanıcı adı> şeklindedir.
 
 Linux Account Authentication
+- Account tipleri
+  - Local Accountlar
+  - Domain/Directory Accountları
+Client <---> Server
 
-
+- Active Directory -> Microsoft
+- IDM = Identity Manager
+- WinBIND = Used in Linux to communicate with Windows(Samba)
+- 
 
