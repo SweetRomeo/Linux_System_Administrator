@@ -477,4 +477,12 @@ Client <---> Server
 - JumpCloud
 - LDAP = Lightweight Directory Access Protocol
 
+System Utility Commands
 
+- date
+- uptime
+- hostname
+- uname
+- which
+- cal
+- bc
