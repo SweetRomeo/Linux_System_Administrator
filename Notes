@@ -495,3 +495,13 @@ Processes and Jobs
 - Daemon                     Apache
 - Threads
 - Job
+
+Process/ Services Command
+- systemctl or service:Bu komutlardan systemctl komutunun açılımı system controldür.
+- ps:
+- top:
+- kill:
+- crontab:
+- 
+
+
