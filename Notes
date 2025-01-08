@@ -488,3 +488,10 @@ System Utility Commands
 ay ve yıl değerleriyle kullanımıdır.
 - bc: Açılımı binary calculater olan bu komut terminalenden bir hesap makinesi açmaya yarar.
 
+Processes and Jobs
+- Application = Service      NTS
+- Script                     NFS
+- Process                    rsyslog
+- Daemon                     Apache
+- Threads
+- Job
