@@ -472,5 +472,9 @@ Client <---> Server
 - Active Directory -> Microsoft
 - IDM = Identity Manager
 - WinBIND = Used in Linux to communicate with Windows(Samba)
-- 
+- OpenLDAP (open source)
+- IBM Directory Server
+- JumpCloud
+- LDAP = Lightweight Directory Access Protocol
+
 
