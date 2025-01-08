@@ -479,10 +479,12 @@ Client <---> Server
 
 System Utility Commands
 
-- date
-- uptime
-- hostname
-- uname
-- which
-- cal
-- bc
+- date: Bugünün tarihini verir.
+- uptime: Sistemin ne kadar süredir ayakta olduğunu ve kullanıcı sayısını ekrana yazdırır.
+- hostname: Sistem ismini verir. Genellikle doğru sisteme giriş yapılıp yapılmadığını kontrol etmek amacıyla kullanılır.
+- uname: Sistemdeki işletim sistemi bilgisini bize verir.
+- which: Ekleme yapılacak 
+- cal: calender'ın kısaltması olan bu komut o günün tarihi takvim üzerinde gösterir. Diğer bir kullanımı da 
+ay ve yıl değerleriyle kullanımıdır.
+- bc: Açılımı binary calculater olan bu komut terminalenden bir hesap makinesi açmaya yarar.
+
