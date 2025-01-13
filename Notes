@@ -527,6 +527,8 @@ Bu sütunlar Tasklar özelinde bilgiler verirler.
 top komudunun diğer kullanım biçimi de top -u <username> şeklindedir. Bu komut kullanıcının sahip olduğu taskları terminale basar.
 top then press c -> Komutun absolute pathini elde eder.
 top then press k -> prosesi öldürür. (Basıldıktan sonra çıkan ekranda yazılan id'deki taskı öldürür.)
+top then M and P -> Çalışmakta olan tüm komutları sortlar(sıralar).
+
 
 - kill:
 - crontab:
