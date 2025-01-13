@@ -512,8 +512,14 @@ Process/ Services Command
 - top: Bu komut tek başına kullanılan bir komut olup sistemde gerçekleşmekte olan processler ve o prosesler hakkında bazı bilgiler verir.
 Bu komut çalıştırıldığında başka bir ekrana geçiş yapılır ve bu ekrandan çıkmak için q tuşuna basılması gerekir.
 Bu komut ile birlikte terminalde belli başlı sütunlar belirir. Bunlar:
-  - PID
-  
+  - PID: Söz konusu görevlere ait olan unique bir id değeridir.
+  - USER: Taskın açıldığı kullanıcı adını verir. 
+  - PR: 
+  - NI:
+  - VIRT:
+  - RES:
+  - SHR:
+Bu sütunlar   
 - kill:
 - crontab:
 - 
