@@ -514,12 +514,20 @@ Bu komut çalıştırıldığında başka bir ekrana geçiş yapılır ve bu ekr
 Bu komut ile birlikte terminalde belli başlı sütunlar belirir. Bunlar:
   - PID: Söz konusu görevlere ait olan unique bir id değeridir.
   - USER: Taskın açıldığı kullanıcı adını verir. 
-  - PR: 
-  - NI:
-  - VIRT:
-  - RES:
-  - SHR:
-Bu sütunlar   
+  - PR: Açılımı Priority of the process olan sütun ise adından da anlaşılabileceği gibi işlem önceliğini göstermektedir.
+  - NI: Nice Value, negatif değerler daha yüksek önceliği gösterirken pozitif değerler düşük önceliği göstermektedir.
+  - VIRT: Total Virtual Memory Used by the task. 
+  - RES: RAM tarafından kullanılan memory proses alanını göstermektedir.
+  - SHR: Task için Kullanılan shared memory miktarını gösteren sütundur.
+  - %CPU: CPU kullanımı gösterir.
+  - %MEM: Shows the Memory usage of task
+  - TIME+: CPU
+  
+Bu sütunlar Tasklar özelinde bilgiler verirler.   
+top komudunun diğer kullanım biçimi de top -u <username> şeklindedir. Bu komut kullanıcının sahip olduğu taskları terminale basar.
+top then press c -> Komutun absolute pathini elde eder.
+
+
 - kill:
 - crontab:
 - 
