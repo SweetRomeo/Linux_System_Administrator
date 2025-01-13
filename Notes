@@ -497,9 +497,19 @@ Processes and Jobs
 - Job
 
 Process/ Services Command
-- systemctl or service:Bu komutlardan systemctl komutunun açılımı system controldür.
-- ps:
-- top:
+- systemctl or service:Bu komutlardan systemctl komutunun açılımı system controldür. Bazı kullanım biçimleri aşağıdaki gibidir:
+  - systemctl status firewalld.service
+  - systemctl stop firewalld.service
+  - systemctl disable firewalld.service
+  - systemctl list-units: Bütün aktif ve yüklenmiş olan üniteleri bize verir.
+  - systemctl poweroff: Sistemi komple kapatır.
+  - systemctl reboot: Sistemi yeniden başlatır.
+- ps: process status kavramının kısa halidir. Kullanımda olan prosesleri terminalde gösterir. Bazı farklı kullanımları aşağıdaki gibidir:
+  - ps -e: çalışmakta olan tüm prosesleri terminalde gösterir.
+  - ps aux: çalışmakta olan tüm prosesleri BSD formatında gösterir.
+  - ps -ef: çalışmakta olan tüm prosesleri full format listing ile gösterir.
+  - ps -u username: Kullanıcı adına bağlı olarak gerçekleştirilmiş olan tüm prosesleri gösterir.
+- top: 
 - kill:
 - crontab:
 - 
