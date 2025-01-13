@@ -509,7 +509,11 @@ Process/ Services Command
   - ps aux: çalışmakta olan tüm prosesleri BSD formatında gösterir.
   - ps -ef: çalışmakta olan tüm prosesleri full format listing ile gösterir.
   - ps -u username: Kullanıcı adına bağlı olarak gerçekleştirilmiş olan tüm prosesleri gösterir.
-- top: 
+- top: Bu komut tek başına kullanılan bir komut olup sistemde gerçekleşmekte olan processler ve o prosesler hakkında bazı bilgiler verir.
+Bu komut çalıştırıldığında başka bir ekrana geçiş yapılır ve bu ekrandan çıkmak için q tuşuna basılması gerekir.
+Bu komut ile birlikte terminalde belli başlı sütunlar belirir. Bunlar:
+  - PID
+  
 - kill:
 - crontab:
 - 
