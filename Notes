@@ -37,6 +37,7 @@ sudo apt install maven
 sudo apt update
 Jdk indirilirken de aşağıdaki komut çalıştırılabilir:
 sudo apt install openjdk-21-jdk-headless
+GRUB: bir loader birden fazla işletim sistemi kullanılması durumunda indirilmesi gerekmektedir.
 
 Cmd yönteici olarak çalıştırılır sonrasında Ubuntu indirilmesi için aşağıdaki komut çalıştırılır:
 wsl --install
