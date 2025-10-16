@@ -31,7 +31,12 @@ Linux vs Windows
 - Linux kullanıcı sayısı da az olmasından dolayı Windows'a kıyasla daha güvenilir.
 - Linux kararlılık ve performans olarak Windows'tan daha iyidir.
 
-
+Linuxta mavenla çalışma
+Maven aşağıdaki komutla indirilebilir:
+sudo apt install maven
+sudo apt update
+Jdk indirilirken de aşağıdaki komut çalıştırılabilir:
+sudo apt install openjdk-21-jdk-headless
 
 Cmd yönteici olarak çalıştırılır sonrasında Ubuntu indirilmesi için aşağıdaki komut çalıştırılır:
 wsl --install
