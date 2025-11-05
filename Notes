@@ -306,6 +306,7 @@ grep -n <aranacak kelime> <aranacak dosya ismi>: Dosya içeriğinde bulunan aran
 grep -vi <aranacak kelime> <aranacak dosya ismi>: Dosya içeriğinde bulunan aranan kriterlere uygun olmayanları terminale basar.
 grep <aranacak kelime> <aranacak dosya ismi> | awk '{print $1}': Dosya içeriğinde bulunan aranan kriterlere uygun olanlarının yalnızca ilk kelimelerini terminale basar.
 ls -l | grep Desktop: ls -l komutundan elde edilen terminal çıktısının içerisinde Desktop yani Masaüstü kelimesini aratır. Bulunanları terminale basar.
+ls -R | grep -E '\.(java)$': java uzantısına sahip tüm dosyaları bul. Şüphesiz bu komut herhangi başka bir uzantıyla da kullanılabilir.
 egrep -i "<aranacak kelime1> | <aranacak kelime2>" <dosya ismi>: Aranacak kelimelerden herhangi birini içeren dosya satırını terminale basan komut.
 
 -sort ve uniq komutları:
